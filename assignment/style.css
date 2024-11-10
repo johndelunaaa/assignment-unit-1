@@ -1,13 +1,100 @@
+html {
+    font-family: "Lobster", serif;
+    font-weight: 400;
+    font-style: oblique;
+}
+
 /* Add a background color to the header element */
+header {
+    background-color: #0b5345;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding: 20px;
+    height: 80% auto;
+    text-align: center;
+    color: rgb(255, 183, 0);
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
 
 /* Add a fun background color to the main element */
 
+main {
+    background-color: #f5b041;
+    padding: 20px;
+    padding-bottom: 50px;
+    max-width: 70%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
 /* Align the h1 containing your name in the center of the header*/
+
+h1 {
+    align-items: center;
+}
 
 /* Make your p tag a different color and italic */
 
+p {
+    color: #f5b041;
+    font-weight: bold;
+    font-size: 30% auto;
+    margin-top: 50px;
+}
+
 /* Put a border around your image */
-
 /* Change the font-family of your list */
-
 /* Add a background color to the footer element */
+
+img {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    border: #0b5345;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+ul li {
+    margin: auto;
+    color: #000000;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #0b5345;
+    color: #fff;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0 auto 0;
+    max-width: 70%;
+    text-align: center;
+    border-radius: 5px;
+    transition: font-size 0.3s ease;
+}
+
+@media (min-width: 300px) {
+    body {
+        font-size:5px;
+    }
+}
+
+@media (min-width: 500px) {
+    body {
+        font-size:20px;
+    }
+}
+@media (min-width: 300px) {
+    body {
+        font-size:15px;
+    }
+}
